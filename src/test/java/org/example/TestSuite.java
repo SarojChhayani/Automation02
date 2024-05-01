@@ -16,7 +16,7 @@ public class TestSuite extends BaseTest {
     ShoppingCart shoppingCart = new ShoppingCart();
 
     @Test
-    public void verifyusershouldbeabletoregistersuccessfullyandalradyloggedin() {
+    public void verifyusershouldbeabletoregistersuccessfully() {
         //click on Register button
         homePage.clickonregisterbutton();
         //Enter Registration Details
@@ -24,7 +24,6 @@ public class TestSuite extends BaseTest {
         //Verify user Register successfully
         registerResultPage.userRegisteredSuccessfully();
     }
-
 
     @Test
     public void verifyregisteredusershouldbeablereferaproducttofriendbyemail(){

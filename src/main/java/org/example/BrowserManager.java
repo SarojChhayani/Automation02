@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class BrowserManager extends Utils {
     //anything relate to browser to go here
     LoadProrp loadProrp = new LoadProrp();
-    String browser = "Chrome";
+    String browser = loadProrp.getProperty("Browser");
 
     public void openBrowser(){
         //open browser

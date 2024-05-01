@@ -11,7 +11,7 @@ public class ShoppingCart extends Utils {
         //Click on Shopping cart button
         clickOnElement(By.className("ico-cart"));
         //verify correct product added
-        Assert.assertEquals(getTextFromElement(By.className("product-name")),loadProrp.getProperty("ExpectedProName"));
+        Assert.assertEquals(getTextFromElement(By.className("product-name")),loadProrp.getProperty("ExpectedProName"),"Product Name Doesn't Match");
 
     }
 }
