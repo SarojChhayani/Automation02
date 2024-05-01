@@ -108,10 +108,5 @@ public class Utils extends BasePage {
     }
     public static void waitForElementToBeVisible(By by, int time){
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));}
-    public static void waitForElementToBeClickable(By by, int time){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));}
-    public static void waitForElementToBeDisable(By by, int time){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));}
-
 
 }
